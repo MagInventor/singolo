@@ -1,0 +1,294 @@
+@media (max-width: 1019px) {
+
+  .wrapper h2,
+  .wrapper h3,
+  .wrapper p {
+    max-width: 688px;
+  }
+
+  .wrapper .container {
+    width: 688px;
+    padding: 0 32px;
+  }
+
+  /**               Header               */
+
+  header nav ul {
+    margin-top: 0;
+    grid-gap: 29px;
+  }
+
+  /**               Slider               */
+
+  main .slider {
+    height: 451px;
+  }
+
+  .slider-bg-1 {
+    border-bottom: 5px solid #ea676b;
+  }
+
+  .slider-bg-2 {
+    border-bottom: 5px solid #5981e7;
+  }
+
+  main .slider .container {
+    width: 714px;
+    margin-top: 12px;
+    padding: 0;
+    grid-gap: 41px;
+    grid-template-columns: 16px 600px 16px;
+    justify-items: center;
+  }
+
+  .slider .container .slider__arrow {
+    margin-top: 2px;
+  }
+
+  .slider .slide_first {
+
+    grid-template-columns: 187px 359px;
+    grid-gap: 0 55px;
+  }
+
+  .slide_first .slider__iPhone-1 {
+    margin-bottom: 4px;
+  }
+
+  .slide_first .slider__iPhone-2 {
+    margin: 0 0 4px -7px;
+  }
+
+  .slider__iPhone-1 img {
+    width: 181px;
+    height: 364px;
+  }
+
+  .slider__iPhone-2 img {
+    width: 364px;
+    height: 181px;
+  }
+
+  .slider__iPhone-3 img {
+    width: 398px;
+    height: 395px;
+  }
+
+  .slider__iPhone-1 .iPhone-1 {
+    width: 143px;
+    height: 251px;
+    top: 49px;
+    left: 10px;
+  }
+
+  .slider__iPhone-2 .iPhone-2 {
+    width: 250px;
+    height: 142px;
+    top: 11px;
+    left: 45px;
+  }
+
+   .slider__iPhone-3 .iPhone-3 {
+    width: 94px;
+    height: 168px;
+    top: 116px;
+    left: 7px;
+  }
+
+  .slider__iPhone-3 .iPhone-4 {
+    width: 155px;
+    height: 273px;
+    top: 53px;
+    left: 112px;
+  }
+
+  .slider__iPhone-3 .iPhone-5 {
+    width: 95px;
+    height: 168px;
+    top: 116px;
+    left: 284px;
+  }
+
+  .slider__content .slider__btn {
+    width: 31px;
+    height: 31px;
+  }
+
+  .slide_second .btn_small {
+    width: 20px;
+    height: 20px;
+  }
+
+  .slider__iPhone-1 .btn_iPhone-1 {
+    top: 308px;
+    left: 65px;
+  }
+
+  .slider__iPhone-2 .btn_iPhone-2 {
+    top: 66px;
+    left: 8px;
+  }
+
+  .slider__iPhone-3 .btn_iPhone-3 {
+    top: 289px;
+    left: 44px;
+  }
+
+  .slider__iPhone-3 .btn_iPhone-4 {
+    top: 335px;
+    left: 173px;
+  }
+
+  .slider__iPhone-3 .btn_iPhone-5 {
+    top: 289px;
+    left: 321px;
+  }
+
+  /**              Services              */
+
+  main .services {
+    height: 670px;
+    border-bottom: 5px solid #fff;
+  }
+
+  .services .services__description {
+    margin-bottom: 36px;
+  }
+
+  .services h2 {
+    padding-top: 40px;
+  }
+
+  .services__description p {
+    height: 87px;
+  }
+
+  .services .services__offer {
+    margin-left: 1px;
+    grid-gap: 56px 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /**             Portfolio              */
+
+  main .portfolio {
+    height: 1096px;
+  }
+
+  .portfolio p {
+    height: 45px;
+  }
+
+  .portfolio .portfolio__menu {
+    margin-top: 26px;
+  }
+
+  .portfolio .portfolio__examples {
+    height: 808px;
+    margin-top: 28px;
+    grid-gap: 7px 19px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .portfolio .portfolio__examples li {
+    width: 215px;
+    height: 184px;
+  }
+
+  .portfolio__examples li img {
+    width: 215px;
+    height: 184px;
+  }
+
+  .portfolio .active_img {
+    width: 205px;
+    height: 174px;
+  }
+
+    /**             About Us               */
+
+  main .about-us {
+    height: 663px;
+    border-bottom: 5px solid #ffffff;
+  }
+
+  .about-us h2 {
+    padding-top: 52px;
+  }
+
+  .about-us .about-us__employee {
+    margin-top: 40px;
+    grid-gap: 0 14px;
+  }
+
+  .about-us__employee .about-us__photo {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 7px;
+  }
+
+  .about-us .about-us__employee li {
+    width: 220px;
+
+  }
+  
+  .about-us .about-us__employee p {
+    width: 220px;
+    margin-top: -8px;
+  }
+  
+  .about-us .social {
+    margin: 9px 0;
+  }
+
+  /**              Contacts              */
+
+  main .contacts {
+    height: 626px;
+    border-bottom: 5px solid #ea676b;
+  }
+
+  .contacts .container  h2 {
+    padding: 55px 0 0 2px;
+  }
+
+  .contacts .contacts__request {
+    margin-top: 27px;
+    grid-gap: 27px;
+    grid-template-columns: 442px 220px;
+  }
+
+  .contacts__request form {
+    width: 442px;
+  }
+
+  .contacts__request form input,
+  .contacts__request form textarea {
+    width: 432px;
+    margin-bottom: 13px;
+    padding-left: 8px;
+  }
+
+  .contacts__request form textarea {    
+    height: 152px;
+    padding-top: 7px;
+  }
+
+  .contacts__request h3 {
+    margin-bottom: 2px;
+  }
+
+  .contacts__request p.second-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacts__request .contact__data {
+    padding-top: 9px;
+  }
+
+  .contacts__request form input[type="submit"] {
+    margin-top: 0;
+  }
+}
